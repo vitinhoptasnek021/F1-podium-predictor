@@ -1,22 +1,16 @@
+# Dados gerados pela API
+data/*.csv
+data/**/*.csv
+
+# Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-.pytest_cache/
 .venv/
 venv/
-.env
+
+# Jupyter
 .ipynb_checkpoints/
-cache_fastf1/
-data/raw/*
-data/processed/*
-data/external/*
-models/*
-reports/figures/*
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-!data/external/.gitkeep
-!models/.gitkeep
-!reports/figures/.gitkeep
+
+# Sistema operacional
 .DS_Store
-.vscode/
-.idea/
+Thumbs.db
