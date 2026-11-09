@@ -1,4 +1,4 @@
-# F1 Podium Predictor — São Paulo GP 2026
+# F1 Podium Predictor — Las Vegas GP 2026
 
 Projeto de Machine Learning para estimar a probabilidade de cada piloto terminar no pódio.
 
@@ -26,9 +26,10 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-## Coletar uma corrida
+## Coletar um ano específico
+!Cuidar com o limite de requisições do fastF1!
 ```bash
-python -m f1_predictor.data.collect --year 2025 --gp Brazil --session R
+python -m f1_predictor.data.collect --year 2026 
 ```
 
 ## Metodologia
